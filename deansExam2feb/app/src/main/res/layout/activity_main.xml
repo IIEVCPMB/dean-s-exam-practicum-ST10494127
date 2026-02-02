@@ -1,0 +1,47 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtBooks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book list will show here"
+            android:textSize="18sp"
+            android:textColor="#333333"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/txtAverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Average rating"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:padding="12dp"
+            android:elevation="2dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btnAddReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Book Review"
+            android:backgroundTint="#FF7043"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
